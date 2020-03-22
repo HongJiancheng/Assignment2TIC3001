@@ -25,7 +25,7 @@ public class ToRequire {
             for(int j=0;j<requiredList.size();j++){
                 String firstWord;
                 if(in.getLines().elementAt(i).contains(" ")){
-                    firstWord=in.getLines().elementAt(i).substring(0,in.getLines().elementAt(i).indexOf(" ")-1);
+                    firstWord=in.getLines().elementAt(i).substring(0,in.getLines().elementAt(i).indexOf(" "));
                 }else{
                     firstWord=in.getLines().elementAt(i);
                 }
